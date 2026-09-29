@@ -15,8 +15,9 @@ import { FONT, LAYOUT } from "../theme";
 // LINE_FRAMES * lines.length frames, so every animation below is expressed
 // relative to that period to stay seamless.
 const LINE_FRAMES = 84;
+// Blue hairline with a soft white highlight travelling around it.
 const glow = (deg: number) =>
-  `conic-gradient(from ${deg}deg, #0A84FF, #BF5AF2, #FF375F, #FF9F0A, #30D158, #64D2FF, #0A84FF)`;
+  `conic-gradient(from ${deg}deg, #0A84FF 0deg, #7CC4FF 40deg, #FFFFFF 70deg, #7CC4FF 100deg, #0A84FF 140deg, #0A5BD6 250deg, #0A84FF 360deg)`;
 
 const RotatingLine: React.FC<{ text: string; local: number; fps: number }> = ({ text, local, fps }) => {
   const enter = spring({ frame: local, fps, config: { damping: 200, mass: 0.6 } });
@@ -83,7 +84,7 @@ export const CtaBanner: React.FC<{ cta: Cta; accent: string }> = ({ cta, accent 
           borderRadius: radius,
           background: glow(angle),
           filter: "blur(28px)",
-          opacity: 0.45,
+          opacity: 0.3,
         }}
       />
       {/* gradient hairline border */}
