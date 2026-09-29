@@ -1,27 +1,35 @@
 # SaaS clips engine
 
-Template-based renderer for 9:16 short-form clips (TikTok / Reels): a podcast
-clip in a rounded frame, a hook headline, word-highlighted subtitles and a
-looping CTA banner that advertises SaaS demo video services.
+Turns long podcasts into 9:16 clips for TikTok / Reels: the clip in a rounded
+frame, a hook headline, word-highlighted subtitles tinted to the video's colours
+and a looping CTA banner that advertises SaaS demo videos.
 
-## Render
+## Setup on the Mac (Apple Silicon)
 
 ```bash
-npm install
-npm run studio                          # live preview / tweak in the browser
-node scripts/render.mjs jobs/example.json   # -> out/example-001.mp4
+brew install ffmpeg yt-dlp node python
+pip3 install mlx-whisper          # local transcription with word timestamps, free
+git clone <this repo> && cd <repo> && npm install
 ```
 
-Each video is a JSON job (see `jobs/example.json`, schema in `src/schema.ts`):
-hook, source file in `public/`, clip start/end, word timestamps, speaker,
-credit and CTA settings. Wrap words in the hook with `*asterisks*` to
-highlight them.
+Put your photo at `public/brand/avatar.jpg` (square). Banner texts, handle and
+hashtags live in `config/brand.json`.
 
-## Roadmap (MVP)
+## Use
 
-1. Template + render (this commit)
-2. Source intake: local file / permitted URL -> `public/sources/`
-3. Transcription with word timestamps (local Whisper, free)
-4. Claude picks the 5 best 20–35 s moments + 3 hooks each -> job JSON
-5. Preview + manual approve
-6. Publishing and analytics
+```bash
+python3 scripts/prepare.py "https://youtube.com/watch?v=..." --license "creator allows clips"
+# -> ~/Desktop/SaaS Clips/A_sources/<source_id>/transcript.txt
+# Claude Code reads the transcript and writes clips.json (see CLAUDE.md)
+python3 scripts/build.py <source_id>
+# -> ~/Desktop/SaaS Clips/B_clips/<id>.mp4 + <id>.txt (caption)
+```
+
+`npm run studio` opens a live preview of the template.
+Set `CLIPS_ROOT` to use a different folder than `~/Desktop/SaaS Clips`.
+
+## Render quality
+
+1080×1920 (TikTok's native size), PNG frames, H.264 High CRF 15, BT.709,
+AAC 320 kbps. Sources are downloaded up to 4K, so the clip is only ever
+downscaled inside the frame.

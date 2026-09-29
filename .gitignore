@@ -3,3 +3,7 @@ out/
 public/sources/
 .env
 *.log
+jobs/*
+!jobs/example.json
+public/brand/avatar.*
+__pycache__/

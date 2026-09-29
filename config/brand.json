@@ -1,0 +1,12 @@
+{
+  "cta": {
+    "name": "Matvii",
+    "role": "Motion Designer",
+    "handle": "@visualyou7",
+    "avatar": "brand/avatar.jpg",
+    "lines": ["I make SaaS demo videos", "Launching a product? DM me", "Portfolio in bio"],
+    "button": "DM me"
+  },
+  "fallbackAccent": "#0A84FF",
+  "hashtags": ["#saas", "#startup", "#founder", "#tech"]
+}
