@@ -1,0 +1,26 @@
+{
+  "name": "saas-clips-engine",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Template-based short-form clip renderer (9:16) with a looping CTA banner",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "node scripts/render.mjs",
+    "still": "remotion still src/index.ts PodcastClip out/preview.png --props=jobs/example.json --frame=90",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.529",
+    "@remotion/fonts": "^4.0.529",
+    "@remotion/media-utils": "4.0.529",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.529",
+    "zod": "3.22.3"
+  },
+  "devDependencies": {
+    "@fontsource/inter": "^5.3.0",
+    "@types/react": "18.3.12",
+    "typescript": "5.6.3"
+  }
+}

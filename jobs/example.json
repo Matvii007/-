@@ -1,0 +1,294 @@
+{
+  "id": "example-001",
+  "format": "podcast_clip",
+  "hook": "How he got his first *10 customers* without ads",
+  "sourceVideo": null,
+  "clipStart": 0,
+  "clipEnd": 24.9,
+  "focusX": 0.5,
+  "speaker": {
+    "name": "Guest Name",
+    "title": "Founder, Company"
+  },
+  "credit": "Podcast Name",
+  "words": [
+    {
+      "text": "Our",
+      "start": 0.25,
+      "end": 0.55
+    },
+    {
+      "text": "first",
+      "start": 0.6,
+      "end": 0.99
+    },
+    {
+      "text": "ten",
+      "start": 1.05,
+      "end": 1.35
+    },
+    {
+      "text": "customers",
+      "start": 1.41,
+      "end": 1.97
+    },
+    {
+      "text": "did",
+      "start": 2.03,
+      "end": 2.33
+    },
+    {
+      "text": "not",
+      "start": 2.39,
+      "end": 2.68
+    },
+    {
+      "text": "come",
+      "start": 2.74,
+      "end": 3.08
+    },
+    {
+      "text": "from",
+      "start": 3.14,
+      "end": 3.48
+    },
+    {
+      "text": "ads.",
+      "start": 3.54,
+      "end": 3.83
+    },
+    {
+      "text": "I",
+      "start": 4.19,
+      "end": 4.39
+    },
+    {
+      "text": "literally",
+      "start": 4.45,
+      "end": 5.02
+    },
+    {
+      "text": "opened",
+      "start": 5.08,
+      "end": 5.5
+    },
+    {
+      "text": "LinkedIn,",
+      "start": 5.57,
+      "end": 6.09
+    },
+    {
+      "text": "found",
+      "start": 6.15,
+      "end": 6.53
+    },
+    {
+      "text": "people",
+      "start": 6.59,
+      "end": 7.02
+    },
+    {
+      "text": "complaining",
+      "start": 7.08,
+      "end": 7.74
+    },
+    {
+      "text": "about",
+      "start": 7.8,
+      "end": 8.18
+    },
+    {
+      "text": "the",
+      "start": 8.24,
+      "end": 8.54
+    },
+    {
+      "text": "problem,",
+      "start": 8.6,
+      "end": 9.07
+    },
+    {
+      "text": "and",
+      "start": 9.13,
+      "end": 9.43
+    },
+    {
+      "text": "sent",
+      "start": 9.49,
+      "end": 9.83
+    },
+    {
+      "text": "them",
+      "start": 9.89,
+      "end": 10.23
+    },
+    {
+      "text": "a",
+      "start": 10.29,
+      "end": 10.49
+    },
+    {
+      "text": "thirty",
+      "start": 10.55,
+      "end": 10.98
+    },
+    {
+      "text": "second",
+      "start": 11.04,
+      "end": 11.47
+    },
+    {
+      "text": "video",
+      "start": 11.53,
+      "end": 11.92
+    },
+    {
+      "text": "of",
+      "start": 11.98,
+      "end": 12.23
+    },
+    {
+      "text": "the",
+      "start": 12.29,
+      "end": 12.58
+    },
+    {
+      "text": "product.",
+      "start": 12.64,
+      "end": 13.12
+    },
+    {
+      "text": "Half",
+      "start": 13.47,
+      "end": 13.81
+    },
+    {
+      "text": "of",
+      "start": 13.87,
+      "end": 14.12
+    },
+    {
+      "text": "them",
+      "start": 14.18,
+      "end": 14.52
+    },
+    {
+      "text": "replied.",
+      "start": 14.58,
+      "end": 15.05
+    },
+    {
+      "text": "Three",
+      "start": 15.4,
+      "end": 15.79
+    },
+    {
+      "text": "of",
+      "start": 15.85,
+      "end": 16.1
+    },
+    {
+      "text": "them",
+      "start": 16.16,
+      "end": 16.5
+    },
+    {
+      "text": "paid",
+      "start": 16.56,
+      "end": 16.9
+    },
+    {
+      "text": "the",
+      "start": 16.96,
+      "end": 17.25
+    },
+    {
+      "text": "same",
+      "start": 17.31,
+      "end": 17.65
+    },
+    {
+      "text": "week.",
+      "start": 17.71,
+      "end": 18.05
+    },
+    {
+      "text": "Nobody",
+      "start": 18.4,
+      "end": 18.83
+    },
+    {
+      "text": "wants",
+      "start": 18.89,
+      "end": 19.28
+    },
+    {
+      "text": "to",
+      "start": 19.34,
+      "end": 19.59
+    },
+    {
+      "text": "read",
+      "start": 19.64,
+      "end": 19.98
+    },
+    {
+      "text": "about",
+      "start": 20.04,
+      "end": 20.43
+    },
+    {
+      "text": "your",
+      "start": 20.49,
+      "end": 20.83
+    },
+    {
+      "text": "product.",
+      "start": 20.89,
+      "end": 21.36
+    },
+    {
+      "text": "They",
+      "start": 21.71,
+      "end": 22.05
+    },
+    {
+      "text": "want",
+      "start": 22.11,
+      "end": 22.45
+    },
+    {
+      "text": "to",
+      "start": 22.51,
+      "end": 22.76
+    },
+    {
+      "text": "see",
+      "start": 22.82,
+      "end": 23.12
+    },
+    {
+      "text": "it",
+      "start": 23.18,
+      "end": 23.43
+    },
+    {
+      "text": "working.",
+      "start": 23.49,
+      "end": 23.96
+    }
+  ],
+  "cta": {
+    "name": "Matvii",
+    "role": "Motion Designer",
+    "handle": "@matvii",
+    "avatar": null,
+    "lines": [
+      "I make SaaS demo videos",
+      "Launching a product? DM me",
+      "Portfolio in bio"
+    ],
+    "button": "DM me"
+  },
+  "accent": "#0A84FF"
+}
